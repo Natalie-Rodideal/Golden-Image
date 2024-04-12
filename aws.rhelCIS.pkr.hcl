@@ -56,13 +56,13 @@ variable "source_ami" {
 variable "vpc_id" {
   type        = string
   description = "The ID of the VPC within which the build will occur."
-  default     = "vpc-0176e5a84b0d1f93f"
+  default     = "vpc-your-vpc"
 }
 
 variable "subnet_id" {
   type        = string
   description = "The ID of the subnet within which the build will occur."
-  default     = "subnet-00d28f0a25745d2e4"
+  default     = "your-subnet"
 }
 
 variable "tags" {
