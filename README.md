@@ -1,0 +1,2 @@
+# Golden-Image
+Rhel/Ubuntu
